@@ -2,15 +2,43 @@
     "headerData": [
         {
             "name": "日期",
-            "value":"date"
+            "value": "date"
         },
         {
             "name": "名字",
-            "value":"name"
+            "value": "name"
         },
         {
             "name": "地址",
-            "value":"address"
+            "value": "address",
+            "children": [
+                {
+                    "name": "地址1",
+                    "value": "date1"
+                },
+                {
+                    "name": "地址2",
+                    "value": "date2"
+                },
+                {
+                    "name": "地址3",
+                    "value": "date3",
+                    "children": [
+                        {
+                            "name": "地址12",
+                            "value": "date12"
+                        },
+                        {
+                            "name": "地址22",
+                            "value": "date22"
+                        },
+                        {
+                            "name": "地址32",
+                            "value": "date32"
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "tableData": [
