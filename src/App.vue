@@ -1,15 +1,27 @@
 <template>
   <div id="app">
-    <elementTablePlus :option="option" />
+    <!-- <elementTablePlus :option="option" /> -->
+    <el-table
+      :header-cell-style="{ background: '#ccc', color: '#333' }"
+      :row-style="{ background: '#ccc', color: '#666' }"
+      :border="true"
+      :data="option.tableData"
+      style="width: 100%"
+    >
+      <elTableColumnPlus :option="option.headerData"></elTableColumnPlus>
+    </el-table>
   </div>
 </template>
 
 <script>
-import elementTablePlus from "./package/element-table-plus.vue";
+// import elementTablePlus from "./package/element-table-plus.vue";
+// elTableColumnPlus
+import elTableColumnPlus from "./elTableColumnPlus.vue";
 export default {
   name: "App",
   components: {
-    elementTablePlus,
+    // elementTablePlus,
+    elTableColumnPlus,
   },
   data() {
     return {
@@ -17,7 +29,7 @@ export default {
     };
   },
   created() {
-    this.option = require("./data.json");
+    this.option = require("./demo.json");
   },
 };
 </script>

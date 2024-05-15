@@ -7,7 +7,7 @@
       :data="option.tableData"
       style="width: 100%"
     >
-      <elTableColumnPlus :option="option.headerData"></elTableColumnPlus>
+      <elTableColumnPlus :option="option.headerData" ></elTableColumnPlus>
     </el-table>
   </div>
 </template>
