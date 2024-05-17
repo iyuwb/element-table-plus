@@ -6,13 +6,13 @@
 
 <script>
 
-import elementTablePlus from "./package/element-table-plus.vue";
+// import elementTablePlus from "./package/element-table-plus.vue";
 export default {
   name: "App",
-  components: {
+  // components: {
 
-    elementTablePlus,
-  },
+  //   elementTablePlus,
+  // },
   data() {
     return {
       option: {},
