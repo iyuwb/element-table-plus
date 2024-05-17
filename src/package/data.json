@@ -1,8 +1,9 @@
 {
     "headerData": [
         {
-            "label": "日期",
-            "prop": "date"
+            "label": "日期", 
+            "prop": "date",
+            "showOverflowTooltip":true
         },
         {
             "label": "名字",
